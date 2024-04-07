@@ -1,0 +1,9 @@
+/home/michael/Stingray_ws/src/build/stingray_transform/CMakeFiles/uninstall.dir
+/home/michael/Stingray_ws/src/build/stingray_transform/CMakeFiles/stingray_transform_uninstall.dir
+/home/michael/Stingray_ws/src/build/stingray_transform/CMakeFiles/test.dir
+/home/michael/Stingray_ws/src/build/stingray_transform/CMakeFiles/edit_cache.dir
+/home/michael/Stingray_ws/src/build/stingray_transform/CMakeFiles/rebuild_cache.dir
+/home/michael/Stingray_ws/src/build/stingray_transform/CMakeFiles/list_install_components.dir
+/home/michael/Stingray_ws/src/build/stingray_transform/CMakeFiles/install.dir
+/home/michael/Stingray_ws/src/build/stingray_transform/CMakeFiles/install/local.dir
+/home/michael/Stingray_ws/src/build/stingray_transform/CMakeFiles/install/strip.dir

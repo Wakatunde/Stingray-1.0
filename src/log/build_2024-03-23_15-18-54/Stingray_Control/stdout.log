@@ -1,0 +1,30 @@
+running egg_info
+creating ../build/Stingray_Control/Stingray_Control.egg-info
+writing ../build/Stingray_Control/Stingray_Control.egg-info/PKG-INFO
+writing dependency_links to ../build/Stingray_Control/Stingray_Control.egg-info/dependency_links.txt
+writing requirements to ../build/Stingray_Control/Stingray_Control.egg-info/requires.txt
+writing top-level names to ../build/Stingray_Control/Stingray_Control.egg-info/top_level.txt
+writing manifest file '../build/Stingray_Control/Stingray_Control.egg-info/SOURCES.txt'
+reading manifest file '../build/Stingray_Control/Stingray_Control.egg-info/SOURCES.txt'
+writing manifest file '../build/Stingray_Control/Stingray_Control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/michael/Stingray_ws/src/build/Stingray_Control/build
+creating /home/michael/Stingray_ws/src/build/Stingray_Control/build/lib
+creating /home/michael/Stingray_ws/src/build/Stingray_Control/build/lib/Stingray_Control
+copying Stingray_Control/__init__.py -> /home/michael/Stingray_ws/src/build/Stingray_Control/build/lib/Stingray_Control
+running install
+running install_lib
+creating /home/michael/Stingray_ws/src/install/Stingray_Control/lib/python3.10/site-packages/Stingray_Control
+copying /home/michael/Stingray_ws/src/build/Stingray_Control/build/lib/Stingray_Control/__init__.py -> /home/michael/Stingray_ws/src/install/Stingray_Control/lib/python3.10/site-packages/Stingray_Control
+byte-compiling /home/michael/Stingray_ws/src/install/Stingray_Control/lib/python3.10/site-packages/Stingray_Control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/michael/Stingray_ws/src/install/Stingray_Control/share/ament_index
+creating /home/michael/Stingray_ws/src/install/Stingray_Control/share/ament_index/resource_index
+creating /home/michael/Stingray_ws/src/install/Stingray_Control/share/ament_index/resource_index/packages
+copying resource/Stingray_Control -> /home/michael/Stingray_ws/src/install/Stingray_Control/share/ament_index/resource_index/packages
+copying package.xml -> /home/michael/Stingray_ws/src/install/Stingray_Control/share/Stingray_Control
+running install_egg_info
+Copying ../build/Stingray_Control/Stingray_Control.egg-info to /home/michael/Stingray_ws/src/install/Stingray_Control/lib/python3.10/site-packages/Stingray_Control-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/michael/Stingray_ws/src/build/Stingray_Control/install.log'

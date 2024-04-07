@@ -1,0 +1,6 @@
+source;share/Stingray_Control/hook/pythonpath.ps1
+source;share/Stingray_Control/hook/pythonpath.dsv
+source;share/Stingray_Control/hook/pythonpath.sh
+source;share/Stingray_Control/hook/ament_prefix_path.ps1
+source;share/Stingray_Control/hook/ament_prefix_path.dsv
+source;share/Stingray_Control/hook/ament_prefix_path.sh

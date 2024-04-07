@@ -1,0 +1,15 @@
+/home/michael/Stingray_ws/src/install/stingray_transform/share/ament_index/resource_index/package_run_dependencies/stingray_transform
+/home/michael/Stingray_ws/src/install/stingray_transform/share/ament_index/resource_index/parent_prefix_path/stingray_transform
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/environment/ament_prefix_path.sh
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/environment/ament_prefix_path.dsv
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/environment/path.sh
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/environment/path.dsv
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/local_setup.bash
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/local_setup.sh
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/local_setup.zsh
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/local_setup.dsv
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/package.dsv
+/home/michael/Stingray_ws/src/install/stingray_transform/share/ament_index/resource_index/packages/stingray_transform
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/cmake/stingray_transformConfig.cmake
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/cmake/stingray_transformConfig-version.cmake
+/home/michael/Stingray_ws/src/install/stingray_transform/share/stingray_transform/package.xml

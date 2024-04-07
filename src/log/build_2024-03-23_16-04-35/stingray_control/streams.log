@@ -1,0 +1,38 @@
+[0.735s] Invoking command in '/home/michael/Stingray_ws/src/stingray_control': AMENT_PREFIX_PATH=/home/michael/Stingray_ws/src/install/stingray_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/Stingray_ws/src/install/stingray_msg:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/michael/Stingray_ws/src/build/stingray_control/prefix_override:/home/michael/Stingray_ws/src/install/stingray_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stingray_control build --build-base /home/michael/Stingray_ws/src/build/stingray_control/build install --record /home/michael/Stingray_ws/src/build/stingray_control/install.log --single-version-externally-managed
+[0.901s] running egg_info
+[0.913s] writing ../build/stingray_control/stingray_control.egg-info/PKG-INFO
+[0.913s] writing dependency_links to ../build/stingray_control/stingray_control.egg-info/dependency_links.txt
+[0.914s] writing entry points to ../build/stingray_control/stingray_control.egg-info/entry_points.txt
+[0.914s] writing requirements to ../build/stingray_control/stingray_control.egg-info/requires.txt
+[0.914s] writing top-level names to ../build/stingray_control/stingray_control.egg-info/top_level.txt
+[0.937s] reading manifest file '../build/stingray_control/stingray_control.egg-info/SOURCES.txt'
+[0.938s] writing manifest file '../build/stingray_control/stingray_control.egg-info/SOURCES.txt'
+[0.938s] running build
+[0.938s] running build_py
+[0.938s] copying stingray_control/ControlDataNode.py -> /home/michael/Stingray_ws/src/build/stingray_control/build/lib/stingray_control
+[0.938s] copying stingray_control/__init__.py -> /home/michael/Stingray_ws/src/build/stingray_control/build/lib/stingray_control
+[0.938s] running install
+[0.939s] /home/michael/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.939s] !!
+[0.939s] 
+[0.939s]         ********************************************************************************
+[0.939s]         Please avoid running ``setup.py`` directly.
+[0.939s]         Instead, use pypa/build, pypa/installer or other
+[0.939s]         standards-based tools.
+[0.939s] 
+[0.939s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.939s]         ********************************************************************************
+[0.939s] 
+[0.939s] !!
+[0.940s]   self.initialize_options()
+[0.943s] running install_lib
+[0.955s] running install_data
+[0.967s] copying resource/stingray_control -> /home/michael/Stingray_ws/src/install/stingray_control/share/ament_index/resource_index/packages
+[0.967s] copying package.xml -> /home/michael/Stingray_ws/src/install/stingray_control/share/stingray_control
+[0.967s] running install_egg_info
+[0.981s] removing '/home/michael/Stingray_ws/src/install/stingray_control/lib/python3.10/site-packages/stingray_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.981s] Copying ../build/stingray_control/stingray_control.egg-info to /home/michael/Stingray_ws/src/install/stingray_control/lib/python3.10/site-packages/stingray_control-0.0.0-py3.10.egg-info
+[0.981s] running install_scripts
+[1.092s] Installing ControlData script to /home/michael/Stingray_ws/src/install/stingray_control/lib/stingray_control
+[1.092s] writing list of installed files to '/home/michael/Stingray_ws/src/build/stingray_control/install.log'
+[1.114s] Invoked command in '/home/michael/Stingray_ws/src/stingray_control' returned '0': AMENT_PREFIX_PATH=/home/michael/Stingray_ws/src/install/stingray_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/Stingray_ws/src/install/stingray_msg:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/michael/Stingray_ws/src/build/stingray_control/prefix_override:/home/michael/Stingray_ws/src/install/stingray_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stingray_control build --build-base /home/michael/Stingray_ws/src/build/stingray_control/build install --record /home/michael/Stingray_ws/src/build/stingray_control/install.log --single-version-externally-managed

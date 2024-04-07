@@ -1,0 +1,45 @@
+[0.824s] Invoking command in '/home/michael/Stingray_ws/src/stingray_control': PYTHONPATH=/home/michael/Stingray_ws/src/build/stingray_control/prefix_override:/home/michael/Stingray_ws/src/install/stingray_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stingray_control build --build-base /home/michael/Stingray_ws/src/build/stingray_control/build install --record /home/michael/Stingray_ws/src/build/stingray_control/install.log --single-version-externally-managed
+[0.988s] running egg_info
+[0.989s] creating ../build/stingray_control/stingray_control.egg-info
+[1.000s] writing ../build/stingray_control/stingray_control.egg-info/PKG-INFO
+[1.000s] writing dependency_links to ../build/stingray_control/stingray_control.egg-info/dependency_links.txt
+[1.000s] writing requirements to ../build/stingray_control/stingray_control.egg-info/requires.txt
+[1.000s] writing top-level names to ../build/stingray_control/stingray_control.egg-info/top_level.txt
+[1.000s] writing manifest file '../build/stingray_control/stingray_control.egg-info/SOURCES.txt'
+[1.024s] reading manifest file '../build/stingray_control/stingray_control.egg-info/SOURCES.txt'
+[1.024s] writing manifest file '../build/stingray_control/stingray_control.egg-info/SOURCES.txt'
+[1.024s] running build
+[1.024s] running build_py
+[1.025s] creating /home/michael/Stingray_ws/src/build/stingray_control/build
+[1.025s] creating /home/michael/Stingray_ws/src/build/stingray_control/build/lib
+[1.025s] creating /home/michael/Stingray_ws/src/build/stingray_control/build/lib/stingray_control
+[1.025s] copying stingray_control/__init__.py -> /home/michael/Stingray_ws/src/build/stingray_control/build/lib/stingray_control
+[1.025s] running install
+[1.025s] /home/michael/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.025s] !!
+[1.025s] 
+[1.025s]         ********************************************************************************
+[1.025s]         Please avoid running ``setup.py`` directly.
+[1.025s]         Instead, use pypa/build, pypa/installer or other
+[1.026s]         standards-based tools.
+[1.026s] 
+[1.026s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.026s]         ********************************************************************************
+[1.026s] 
+[1.026s] !!
+[1.026s]   self.initialize_options()
+[1.033s] running install_lib
+[1.044s] creating /home/michael/Stingray_ws/src/install/stingray_control/lib/python3.10/site-packages/stingray_control
+[1.045s] copying /home/michael/Stingray_ws/src/build/stingray_control/build/lib/stingray_control/__init__.py -> /home/michael/Stingray_ws/src/install/stingray_control/lib/python3.10/site-packages/stingray_control
+[1.045s] byte-compiling /home/michael/Stingray_ws/src/install/stingray_control/lib/python3.10/site-packages/stingray_control/__init__.py to __init__.cpython-310.pyc
+[1.045s] running install_data
+[1.056s] creating /home/michael/Stingray_ws/src/install/stingray_control/share/ament_index
+[1.057s] creating /home/michael/Stingray_ws/src/install/stingray_control/share/ament_index/resource_index
+[1.057s] creating /home/michael/Stingray_ws/src/install/stingray_control/share/ament_index/resource_index/packages
+[1.057s] copying resource/stingray_control -> /home/michael/Stingray_ws/src/install/stingray_control/share/ament_index/resource_index/packages
+[1.057s] copying package.xml -> /home/michael/Stingray_ws/src/install/stingray_control/share/stingray_control
+[1.057s] running install_egg_info
+[1.069s] Copying ../build/stingray_control/stingray_control.egg-info to /home/michael/Stingray_ws/src/install/stingray_control/lib/python3.10/site-packages/stingray_control-0.0.0-py3.10.egg-info
+[1.070s] running install_scripts
+[1.180s] writing list of installed files to '/home/michael/Stingray_ws/src/build/stingray_control/install.log'
+[1.200s] Invoked command in '/home/michael/Stingray_ws/src/stingray_control' returned '0': PYTHONPATH=/home/michael/Stingray_ws/src/build/stingray_control/prefix_override:/home/michael/Stingray_ws/src/install/stingray_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stingray_control build --build-base /home/michael/Stingray_ws/src/build/stingray_control/build install --record /home/michael/Stingray_ws/src/build/stingray_control/install.log --single-version-externally-managed

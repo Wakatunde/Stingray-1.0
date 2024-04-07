@@ -1,0 +1,437 @@
+[0.856s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.856s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x710e56a62a10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x710e56a620b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x710e56a620b0>>)
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.895s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/michael/Stingray_ws/src'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extensions ['ignore', 'ignore_ament_install']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extension 'ros'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extensions ['cmake', 'python']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extension 'cmake'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extension 'python'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extensions ['python_setup_py']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example) by extension 'python_setup_py'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example/px4_offboard) by extensions ['ignore', 'ignore_ament_install']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example/px4_offboard) by extension 'ignore'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example/px4_offboard) by extension 'ignore_ament_install'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example/px4_offboard) by extensions ['colcon_pkg']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example/px4_offboard) by extension 'colcon_pkg'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example/px4_offboard) by extensions ['colcon_meta']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example/px4_offboard) by extension 'colcon_meta'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example/px4_offboard) by extensions ['ros']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_PX4_Offboard_Example/px4_offboard) by extension 'ros'
+[0.907s] DEBUG:colcon.colcon_core.package_identification:Package 'ROS2_PX4_Offboard_Example/px4_offboard' with type 'ros.ament_python' and name 'px4_offboard'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extension 'ignore_ament_install'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extension 'colcon_pkg'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extensions ['colcon_meta']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extension 'colcon_meta'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extensions ['ros']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extension 'ros'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extensions ['cmake', 'python']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extension 'cmake'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extension 'python'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extensions ['python_setup_py']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(mavros) by extension 'python_setup_py'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/libmavconn) by extensions ['ignore', 'ignore_ament_install']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/libmavconn) by extension 'ignore'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/libmavconn) by extension 'ignore_ament_install'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/libmavconn) by extensions ['colcon_pkg']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/libmavconn) by extension 'colcon_pkg'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/libmavconn) by extensions ['colcon_meta']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/libmavconn) by extension 'colcon_meta'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/libmavconn) by extensions ['ros']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/libmavconn) by extension 'ros'
+[0.910s] DEBUG:colcon.colcon_core.package_identification:Package 'mavros/libmavconn' with type 'ros.ament_cmake' and name 'libmavconn'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros) by extension 'ignore'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros) by extension 'ignore_ament_install'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros) by extensions ['colcon_pkg']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros) by extension 'colcon_pkg'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros) by extensions ['colcon_meta']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros) by extension 'colcon_meta'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros) by extensions ['ros']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros) by extension 'ros'
+[0.912s] DEBUG:colcon.colcon_core.package_identification:Package 'mavros/mavros' with type 'ros.ament_cmake' and name 'mavros'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_extras) by extensions ['ignore', 'ignore_ament_install']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_extras) by extension 'ignore'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_extras) by extension 'ignore_ament_install'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_extras) by extensions ['colcon_pkg']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_extras) by extension 'colcon_pkg'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_extras) by extensions ['colcon_meta']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_extras) by extension 'colcon_meta'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_extras) by extensions ['ros']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_extras) by extension 'ros'
+[0.915s] DEBUG:colcon.colcon_core.package_identification:Package 'mavros/mavros_extras' with type 'ros.ament_cmake' and name 'mavros_extras'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_msgs) by extension 'ignore'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_msgs) by extension 'ignore_ament_install'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_msgs) by extensions ['colcon_pkg']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_msgs) by extension 'colcon_pkg'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_msgs) by extensions ['colcon_meta']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_msgs) by extension 'colcon_meta'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_msgs) by extensions ['ros']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/mavros_msgs) by extension 'ros'
+[0.916s] DEBUG:colcon.colcon_core.package_identification:Package 'mavros/mavros_msgs' with type 'ros.ament_cmake' and name 'mavros_msgs'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/test_mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/test_mavros) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(mavros/test_mavros) ignored
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore_ament_install'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_pkg']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_pkg'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_meta']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_meta'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ros']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ros'
+[0.917s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore_ament_install'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_pkg']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_pkg'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_meta']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_meta'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ros']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ros'
+[0.918s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_controller) by extension 'ignore'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_controller) by extension 'ignore_ament_install'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_controller) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_controller) by extension 'colcon_pkg'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_controller) by extensions ['colcon_meta']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_controller) by extension 'colcon_meta'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_controller) by extensions ['ros']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_controller) by extension 'ros'
+[0.919s] DEBUG:colcon.colcon_core.package_identification:Package 'stingray_controller' with type 'ros.ament_python' and name 'stingray_control'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_msg) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_msg) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_msg) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_msg) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_msg) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_msg) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_msg) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(stingray_msg) by extension 'ros'
+[0.920s] DEBUG:colcon.colcon_core.package_identification:Package 'stingray_msg' with type 'ros.ament_cmake' and name 'stingray_msg'
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.034s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/michael/Stingray_ws/install
+[1.046s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/michael/ros2_ws/install
+[1.060s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 34 installed packages in /home/michael/colcon_ws/install
+[1.073s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 349 installed packages in /opt/ros/humble
+[1.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.139s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'mavros' is in: /home/michael/Stingray_ws/install/mavros, /opt/ros/humble
+	'mavros_extras' is in: /home/michael/Stingray_ws/install/mavros_extras, /opt/ros/humble
+	'mavros_msgs' is in: /home/michael/Stingray_ws/install/mavros_msgs, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding mavros mavros_extras mavros_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_args' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_cache' from command line to 'False'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_first' from command line to 'False'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_force_configure' from command line to 'False'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'ament_cmake_args' from command line to 'None'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_cmake_args' from command line to 'None'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.153s] DEBUG:colcon.colcon_core.verb:Building package 'libmavconn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray_ws/src/build/libmavconn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray_ws/src/install/libmavconn', 'merge_install': False, 'path': '/home/michael/Stingray_ws/src/mavros/libmavconn', 'symlink_install': False, 'test_result_base': None}
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.165s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray_ws/src/build/mavros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray_ws/src/install/mavros_msgs', 'merge_install': False, 'path': '/home/michael/Stingray_ws/src/mavros/mavros_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.178s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray_ws/src/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray_ws/src/install/px4_msgs', 'merge_install': False, 'path': '/home/michael/Stingray_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_target' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.191s] DEBUG:colcon.colcon_core.verb:Building package 'stingray_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray_ws/src/build/stingray_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray_ws/src/install/stingray_msg', 'merge_install': False, 'path': '/home/michael/Stingray_ws/src/stingray_msg', 'symlink_install': False, 'test_result_base': None}
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_first' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_force_configure' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'ament_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.204s] DEBUG:colcon.colcon_core.verb:Building package 'mavros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray_ws/src/build/mavros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray_ws/src/install/mavros', 'merge_install': False, 'path': '/home/michael/Stingray_ws/src/mavros/mavros', 'symlink_install': False, 'test_result_base': None}
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_args' from command line to 'None'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target' from command line to 'None'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_cache' from command line to 'False'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_first' from command line to 'False'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_force_configure' from command line to 'False'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'ament_cmake_args' from command line to 'None'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_cmake_args' from command line to 'None'
+[1.216s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.216s] DEBUG:colcon.colcon_core.verb:Building package 'px4_offboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray_ws/src/build/px4_offboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray_ws/src/install/px4_offboard', 'merge_install': False, 'path': '/home/michael/Stingray_ws/src/ROS2_PX4_Offboard_Example/px4_offboard', 'symlink_install': False, 'test_result_base': None}
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[1.228s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.228s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray_ws/src/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray_ws/src/install/px4_ros_com', 'merge_install': False, 'path': '/home/michael/Stingray_ws/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_args' from command line to 'None'
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_target' from command line to 'None'
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.240s] DEBUG:colcon.colcon_core.verb:Building package 'stingray_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray_ws/src/build/stingray_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray_ws/src/install/stingray_control', 'merge_install': False, 'path': '/home/michael/Stingray_ws/src/stingray_controller', 'symlink_install': False, 'test_result_base': None}
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_args' from command line to 'None'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target' from command line to 'None'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_cache' from command line to 'False'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_first' from command line to 'False'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_force_configure' from command line to 'False'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'ament_cmake_args' from command line to 'None'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_cmake_args' from command line to 'None'
+[1.253s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.253s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_extras' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray_ws/src/build/mavros_extras', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray_ws/src/install/mavros_extras', 'merge_install': False, 'path': '/home/michael/Stingray_ws/src/mavros/mavros_extras', 'symlink_install': False, 'test_result_base': None}
+[1.266s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/michael/Stingray_ws/src/mavros/mavros_msgs' with build type 'ament_cmake'
+[1.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/michael/Stingray_ws/src/mavros/mavros_msgs'
+[1.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/michael/Stingray_ws/src/mavros/libmavconn' with build type 'ament_cmake'
+[1.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/michael/Stingray_ws/src/mavros/libmavconn'
+[1.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.441s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/michael/Stingray_ws/src/px4_msgs' with build type 'ament_cmake'
+[1.441s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/michael/Stingray_ws/src/px4_msgs'
+[1.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.526s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/michael/Stingray_ws/src/stingray_msg' with build type 'ament_cmake'
+[1.527s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/michael/Stingray_ws/src/stingray_msg'
+[1.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray_ws/src/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake /home/michael/Stingray_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/michael/Stingray_ws/src/install/mavros_msgs
+[1.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray_ws/src/build/libmavconn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake /home/michael/Stingray_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/michael/Stingray_ws/src/install/libmavconn
+[1.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray_ws/src/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake /home/michael/Stingray_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/michael/Stingray_ws/src/install/px4_msgs
+[1.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray_ws/src/build/stingray_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray_ws/src/build/stingray_msg -- -j8 -l8
+[2.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray_ws/src/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake /home/michael/Stingray_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/michael/Stingray_ws/src/install/libmavconn
+[2.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray_ws/src/build/libmavconn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray_ws/src/build/libmavconn -- -j8 -l8
+[8.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray_ws/src/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake /home/michael/Stingray_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/michael/Stingray_ws/src/install/mavros_msgs
+[8.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray_ws/src/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray_ws/src/build/mavros_msgs -- -j8 -l8
+[8.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray_ws/src/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake /home/michael/Stingray_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/michael/Stingray_ws/src/install/px4_msgs
+[8.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray_ws/src/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray_ws/src/build/px4_msgs -- -j8 -l8
+[9.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray_ws/src/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray_ws/src/build/libmavconn -- -j8 -l8
+[10.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray_ws/src/build/libmavconn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/michael/Stingray_ws/src/build/libmavconn
+[10.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libmavconn)
+[10.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray_ws/src/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/michael/Stingray_ws/src/build/libmavconn
+[10.256s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn' for CMake module files
+[10.257s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn' for CMake config files
+[10.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'cmake_prefix_path')
+[10.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.ps1'
+[10.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.dsv'
+[10.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.sh'
+[10.347s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn/lib'
+[10.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'ld_library_path_lib')
+[10.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.ps1'
+[10.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.dsv'
+[10.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.sh'
+[10.387s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn/bin'
+[10.387s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn/lib/pkgconfig/libmavconn.pc'
+[10.388s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn/lib/python3.10/site-packages'
+[10.388s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn/bin'
+[10.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/package.ps1'
+[10.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/package.dsv'
+[10.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/package.sh'
+[10.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/package.bash'
+[10.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/package.zsh'
+[10.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/Stingray_ws/src/install/libmavconn/share/colcon-core/packages/libmavconn)
+[10.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray_ws/src/build/stingray_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray_ws/src/build/stingray_msg -- -j8 -l8
+[10.658s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libmavconn)
+[10.705s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn' for CMake module files
+[10.706s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn' for CMake config files
+[10.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'cmake_prefix_path')
+[10.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.ps1'
+[10.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.dsv'
+[10.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.sh'
+[10.759s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn/lib'
+[10.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'ld_library_path_lib')
+[10.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.ps1'
+[10.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.dsv'
+[10.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.sh'
+[10.818s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn/bin'
+[10.818s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn/lib/pkgconfig/libmavconn.pc'
+[10.818s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn/lib/python3.10/site-packages'
+[10.819s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/libmavconn/bin'
+[10.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/package.ps1'
+[10.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/package.dsv'
+[10.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/package.sh'
+[10.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/package.bash'
+[10.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/libmavconn/share/libmavconn/package.zsh'
+[10.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/Stingray_ws/src/install/libmavconn/share/colcon-core/packages/libmavconn)
+[10.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray_ws/src/build/stingray_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/michael/Stingray_ws/src/build/stingray_msg
+[11.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stingray_msg)
+[11.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray_ws/src/build/stingray_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/michael/Stingray_ws/src/build/stingray_msg
+[11.117s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg' for CMake module files
+[11.118s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg' for CMake config files
+[11.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_msg', 'cmake_prefix_path')
+[11.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.ps1'
+[11.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.dsv'
+[11.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.sh'
+[11.156s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg/lib'
+[11.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_msg', 'ld_library_path_lib')
+[11.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.ps1'
+[11.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.dsv'
+[11.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.sh'
+[11.189s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg/bin'
+[11.189s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg/lib/pkgconfig/stingray_msg.pc'
+[11.189s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg/lib/python3.10/site-packages'
+[11.190s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg/bin'
+[11.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/package.ps1'
+[11.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/package.dsv'
+[11.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/package.sh'
+[11.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/package.bash'
+[11.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/package.zsh'
+[11.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/Stingray_ws/src/install/stingray_msg/share/colcon-core/packages/stingray_msg)
+[11.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stingray_msg)
+[11.559s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg' for CMake module files
+[11.560s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg' for CMake config files
+[11.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_msg', 'cmake_prefix_path')
+[11.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.ps1'
+[11.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.dsv'
+[11.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.sh'
+[11.598s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg/lib'
+[11.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_msg', 'ld_library_path_lib')
+[11.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.ps1'
+[11.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.dsv'
+[11.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.sh'
+[11.631s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg/bin'
+[11.631s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg/lib/pkgconfig/stingray_msg.pc'
+[11.632s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg/lib/python3.10/site-packages'
+[11.632s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/stingray_msg/bin'
+[11.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/package.ps1'
+[11.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/package.dsv'
+[11.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/package.sh'
+[11.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/package.bash'
+[11.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/stingray_msg/share/stingray_msg/package.zsh'
+[11.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/Stingray_ws/src/install/stingray_msg/share/colcon-core/packages/stingray_msg)
+[107.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[107.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[107.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray_ws/src/build/px4_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray_ws/src/build/px4_msgs -- -j8 -l8
+[107.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray_ws/src/build/mavros_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray_ws/install/stingray_control:/home/michael/Stingray_ws/install/stingray_controller:/home/michael/Stingray_ws/install/stingray_controll:/home/michael/Stingray_ws/install/px4_offboard:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray_ws/src/build/mavros_msgs -- -j8 -l8
+[110.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[110.573s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/px4_msgs' for CMake module files
+[110.573s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/px4_msgs' for CMake config files
+[110.573s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/px4_msgs/bin'
+[110.573s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[110.574s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/px4_msgs/lib/python3.10/site-packages'
+[110.574s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/px4_msgs/bin'
+[110.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/px4_msgs/share/px4_msgs/package.ps1'
+[110.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/Stingray_ws/src/install/px4_msgs/share/px4_msgs/package.dsv'
+[110.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/px4_msgs/share/px4_msgs/package.sh'
+[110.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/px4_msgs/share/px4_msgs/package.bash'
+[110.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/px4_msgs/share/px4_msgs/package.zsh'
+[110.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/Stingray_ws/src/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[110.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_msgs)
+[110.605s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/mavros_msgs' for CMake module files
+[110.606s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/mavros_msgs' for CMake config files
+[110.606s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/mavros_msgs/bin'
+[110.606s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/mavros_msgs/lib/pkgconfig/mavros_msgs.pc'
+[110.606s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/mavros_msgs/lib/python3.10/site-packages'
+[110.606s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray_ws/src/install/mavros_msgs/bin'
+[110.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/mavros_msgs/share/mavros_msgs/package.ps1'
+[110.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/Stingray_ws/src/install/mavros_msgs/share/mavros_msgs/package.dsv'
+[110.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/mavros_msgs/share/mavros_msgs/package.sh'
+[110.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/mavros_msgs/share/mavros_msgs/package.bash'
+[110.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray_ws/src/install/mavros_msgs/share/mavros_msgs/package.zsh'
+[110.622s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/Stingray_ws/src/install/mavros_msgs/share/colcon-core/packages/mavros_msgs)
+[110.633s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[110.633s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[110.633s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[110.633s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[110.653s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[110.653s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[110.653s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[110.663s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[110.678s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/Stingray_ws/src/install/local_setup.ps1'
+[110.679s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/michael/Stingray_ws/src/install/_local_setup_util_ps1.py'
+[110.680s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/Stingray_ws/src/install/setup.ps1'
+[110.697s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/Stingray_ws/src/install/local_setup.sh'
+[110.697s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/michael/Stingray_ws/src/install/_local_setup_util_sh.py'
+[110.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/Stingray_ws/src/install/setup.sh'
+[110.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/Stingray_ws/src/install/local_setup.bash'
+[110.715s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/Stingray_ws/src/install/setup.bash'
+[110.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/Stingray_ws/src/install/local_setup.zsh'
+[110.731s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/Stingray_ws/src/install/setup.zsh'

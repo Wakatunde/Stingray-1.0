@@ -1,0 +1,48 @@
+running egg_info
+creating ../build/stingray_controller/stingray_controller.egg-info
+writing ../build/stingray_controller/stingray_controller.egg-info/PKG-INFO
+writing dependency_links to ../build/stingray_controller/stingray_controller.egg-info/dependency_links.txt
+writing entry points to ../build/stingray_controller/stingray_controller.egg-info/entry_points.txt
+writing requirements to ../build/stingray_controller/stingray_controller.egg-info/requires.txt
+writing top-level names to ../build/stingray_controller/stingray_controller.egg-info/top_level.txt
+writing manifest file '../build/stingray_controller/stingray_controller.egg-info/SOURCES.txt'
+reading manifest file '../build/stingray_controller/stingray_controller.egg-info/SOURCES.txt'
+writing manifest file '../build/stingray_controller/stingray_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/michael/Stingray_ws/src/build/stingray_controller/build
+creating /home/michael/Stingray_ws/src/build/stingray_controller/build/lib
+creating /home/michael/Stingray_ws/src/build/stingray_controller/build/lib/stingray_controller
+copying stingray_controller/__init__.py -> /home/michael/Stingray_ws/src/build/stingray_controller/build/lib/stingray_controller
+copying stingray_controller/JoyToStingrayNode.py -> /home/michael/Stingray_ws/src/build/stingray_controller/build/lib/stingray_controller
+running install
+/home/michael/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running install_lib
+creating /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller
+copying /home/michael/Stingray_ws/src/build/stingray_controller/build/lib/stingray_controller/__init__.py -> /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller
+copying /home/michael/Stingray_ws/src/build/stingray_controller/build/lib/stingray_controller/JoyToStingrayNode.py -> /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller
+byte-compiling /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller/JoyToStingrayNode.py to JoyToStingrayNode.cpython-310.pyc
+running install_data
+creating /home/michael/Stingray_ws/src/install/stingray_controller/share/ament_index
+creating /home/michael/Stingray_ws/src/install/stingray_controller/share/ament_index/resource_index
+creating /home/michael/Stingray_ws/src/install/stingray_controller/share/ament_index/resource_index/packages
+copying resource/stingray_controller -> /home/michael/Stingray_ws/src/install/stingray_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/michael/Stingray_ws/src/install/stingray_controller/share/stingray_controller
+running install_egg_info
+Copying ../build/stingray_controller/stingray_controller.egg-info to /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ControlData script to /home/michael/Stingray_ws/src/install/stingray_controller/lib/stingray_controller
+writing list of installed files to '/home/michael/Stingray_ws/src/build/stingray_controller/install.log'

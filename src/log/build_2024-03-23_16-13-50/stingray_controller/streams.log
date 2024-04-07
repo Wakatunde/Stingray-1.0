@@ -1,0 +1,50 @@
+[0.833s] Invoking command in '/home/michael/Stingray_ws/src/stingray_controller': PYTHONPATH=/home/michael/Stingray_ws/src/build/stingray_controller/prefix_override:/home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stingray_controller build --build-base /home/michael/Stingray_ws/src/build/stingray_controller/build install --record /home/michael/Stingray_ws/src/build/stingray_controller/install.log --single-version-externally-managed
+[1.000s] running egg_info
+[1.000s] creating ../build/stingray_controller/stingray_controller.egg-info
+[1.011s] writing ../build/stingray_controller/stingray_controller.egg-info/PKG-INFO
+[1.012s] writing dependency_links to ../build/stingray_controller/stingray_controller.egg-info/dependency_links.txt
+[1.012s] writing entry points to ../build/stingray_controller/stingray_controller.egg-info/entry_points.txt
+[1.012s] writing requirements to ../build/stingray_controller/stingray_controller.egg-info/requires.txt
+[1.012s] writing top-level names to ../build/stingray_controller/stingray_controller.egg-info/top_level.txt
+[1.012s] writing manifest file '../build/stingray_controller/stingray_controller.egg-info/SOURCES.txt'
+[1.036s] reading manifest file '../build/stingray_controller/stingray_controller.egg-info/SOURCES.txt'
+[1.036s] writing manifest file '../build/stingray_controller/stingray_controller.egg-info/SOURCES.txt'
+[1.037s] running build
+[1.037s] running build_py
+[1.037s] creating /home/michael/Stingray_ws/src/build/stingray_controller/build
+[1.037s] creating /home/michael/Stingray_ws/src/build/stingray_controller/build/lib
+[1.037s] creating /home/michael/Stingray_ws/src/build/stingray_controller/build/lib/stingray_controller
+[1.037s] copying stingray_controller/__init__.py -> /home/michael/Stingray_ws/src/build/stingray_controller/build/lib/stingray_controller
+[1.037s] copying stingray_controller/JoyToStingrayNode.py -> /home/michael/Stingray_ws/src/build/stingray_controller/build/lib/stingray_controller
+[1.037s] running install
+[1.037s] /home/michael/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.037s] !!
+[1.037s] 
+[1.038s]         ********************************************************************************
+[1.038s]         Please avoid running ``setup.py`` directly.
+[1.038s]         Instead, use pypa/build, pypa/installer or other
+[1.038s]         standards-based tools.
+[1.038s] 
+[1.038s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.038s]         ********************************************************************************
+[1.038s] 
+[1.038s] !!
+[1.038s]   self.initialize_options()
+[1.042s] running install_lib
+[1.054s] creating /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller
+[1.054s] copying /home/michael/Stingray_ws/src/build/stingray_controller/build/lib/stingray_controller/__init__.py -> /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller
+[1.054s] copying /home/michael/Stingray_ws/src/build/stingray_controller/build/lib/stingray_controller/JoyToStingrayNode.py -> /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller
+[1.054s] byte-compiling /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller/__init__.py to __init__.cpython-310.pyc
+[1.054s] byte-compiling /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller/JoyToStingrayNode.py to JoyToStingrayNode.cpython-310.pyc
+[1.054s] running install_data
+[1.066s] creating /home/michael/Stingray_ws/src/install/stingray_controller/share/ament_index
+[1.066s] creating /home/michael/Stingray_ws/src/install/stingray_controller/share/ament_index/resource_index
+[1.066s] creating /home/michael/Stingray_ws/src/install/stingray_controller/share/ament_index/resource_index/packages
+[1.066s] copying resource/stingray_controller -> /home/michael/Stingray_ws/src/install/stingray_controller/share/ament_index/resource_index/packages
+[1.066s] copying package.xml -> /home/michael/Stingray_ws/src/install/stingray_controller/share/stingray_controller
+[1.066s] running install_egg_info
+[1.079s] Copying ../build/stingray_controller/stingray_controller.egg-info to /home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages/stingray_controller-0.0.0-py3.10.egg-info
+[1.080s] running install_scripts
+[1.192s] Installing ControlData script to /home/michael/Stingray_ws/src/install/stingray_controller/lib/stingray_controller
+[1.192s] writing list of installed files to '/home/michael/Stingray_ws/src/build/stingray_controller/install.log'
+[1.215s] Invoked command in '/home/michael/Stingray_ws/src/stingray_controller' returned '0': PYTHONPATH=/home/michael/Stingray_ws/src/build/stingray_controller/prefix_override:/home/michael/Stingray_ws/src/install/stingray_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/stingray_controller build --build-base /home/michael/Stingray_ws/src/build/stingray_controller/build install --record /home/michael/Stingray_ws/src/build/stingray_controller/install.log --single-version-externally-managed
